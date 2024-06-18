@@ -1,0 +1,86 @@
+*{
+    margin-top: 0px;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  /* styling for header section */
+
+  #header {
+    background-color: #330000;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px 45px;
+    margin-left: -8px;
+    object-fit: cover;
+   width: 93.4vw;
+  }
+
+  #header-det {
+    font-size: 14px;
+  }
+
+  #header-det :nth-child(1) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 15px;
+  }
+
+  #header-det :nth-child(2) {
+    padding-left: 15px;
+  }
+
+  .social-icons {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .social-icons i {
+    margin-right: 12px;
+  }
+
+  .social-icons i:hover {
+    transform: rotateY(180deg);
+  }
