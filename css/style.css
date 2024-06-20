@@ -84,3 +84,73 @@
   .social-icons i:hover {
     transform: rotateY(180deg);
   }
+
+
+  /* styling nav bar */
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+
+  nav img {
+    width: 10%;
+  }
+
+  #nav-links {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  #nav-links a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #2D0000;
+    font-weight: 400;
+    padding: 29px 7px;
+    display: block;
+    font-size: 18px;
+    transition: all .3s ease-out 0s;
+    position:relative;
+  }
+
+  #nav-links a:hover {
+   border-bottom: 3px solid #B40000;
+   color:#B40000;
+  }
+
+  #nav-button {
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #B40000;
+    border: 1px solid #B40000;
+    background-color: #fff;
+  }
+
+  #nav-button:hover {
+    background-color: #B40000;
+    border: 1px solid #B40000;
+    color: #fff !important;
+}
+
+#hd-cnt {
+  padding: 20px 0px !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #2D0000;
+  font-family: "Roboto", sans-serif;
+  margin-left: 26px;
+  text-decoration: none;
+}
+
+#hd-cnt span {
+  color: #B40000;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border-bottom: 1px dotted rgba(180, 0, 0, 0.3);
+    padding-bottom: 5px;
+}
