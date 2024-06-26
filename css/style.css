@@ -49,14 +49,14 @@
   /* styling for header section */
 
   #header {
-    background-color: #330000;
+    background-color: #1A1F71;
     display: flex;
     justify-content: space-between;
     color: #fff;
     padding: 10px 45px;
     margin-left: -8px;
     object-fit: cover;
-   width: 93.4vw;
+   width: 92.1vw;
   }
 
   #header-det {
@@ -93,10 +93,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
+    width: 93.4vw;
   }
 
   nav img {
     width: 10%;
+
   }
 
   #nav-links {
@@ -107,7 +109,7 @@
   #nav-links a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    color: #2D0000;
+    color: #1A1F71;
     font-weight: 400;
     padding: 29px 7px;
     display: block;
@@ -117,8 +119,8 @@
   }
 
   #nav-links a:hover {
-   border-bottom: 3px solid #B40000;
-   color:#B40000;
+   border-bottom: 3px solid #4266f5;
+   color:#4266f5;
   }
 
   #nav-button {
@@ -126,14 +128,14 @@
     padding: 11px 20px;
     text-transform: capitalize;
     font-size: 16px;
-    color: #B40000;
-    border: 1px solid #B40000;
+    color: #4266f5;
+    border: 1px solid #4266f5;
     background-color: #fff;
   }
 
   #nav-button:hover {
-    background-color: #B40000;
-    border: 1px solid #B40000;
+    background-color: #4266f5;
+    border: 1px solid #4266f5;
     color: #fff !important;
 }
 
@@ -141,16 +143,174 @@
   padding: 20px 0px !important;
   font-size: 18px !important;
   font-weight: 400 !important;
-  color: #2D0000;
+  color: #1A1F71;
   font-family: "Roboto", sans-serif;
   margin-left: 26px;
   text-decoration: none;
 }
 
 #hd-cnt span {
-  color: #B40000;
+  color: #4266f5;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     border-bottom: 1px dotted rgba(180, 0, 0, 0.3);
     padding-bottom: 5px;
+}
+
+ #hero {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.5)
+  ), url(../assests/images/hero_img.jpg);
+  width:98.8vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -9px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-cnt{
+  color: white;
+  padding-left: 120px;
+ 
+}
+
+.h1{
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 1.2;
+  font-family: "Baskervville", serif;
+  max-width: 620px;
+  
+}
+
+.hero-cnt p{
+  color: #fff;
+    margin-bottom: 41px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    animation: "fadeInUP";
+    animation-delay: 0.4s;
+    max-width: 550px;
+}
+
+.btn {
+  background: #4266f5;
+    font-family: "Roboto", sans-serif;
+    text-transform: inherit;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    animation: "fadeInUP";
+    animation-delay: 0.8s;
+    border: 1px solid #4266f5;
+}
+
+.btn:hover {
+  background-color: #1a1f71;
+  border: 1px solid #1A1F71;
+  color: #fff ;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  line-height: 1.5;
+  color: #000;
+
+}
+
+#about img {
+  width: 516px;
+  height: 731px;
+  margin-bottom: 15px;
+    border-radius: 140px 0 0 0;
+  
+}
+
+.about-img{
+  position: relative;
+}
+
+.about-btn {
+  position: absolute;
+  bottom: -18px;
+  right: -35px;
+  width: 194px;
+  height: 171px;
+  padding: 18px 10px;
+  background: #1a1f71;
+  border: 1px solid #1A1F71;
+  text-align: center;
+}
+
+.about-btn span {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.about-text {
+  margin-left: 8.3333333333%;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-family:  "Baskervville", sans-serif;
+}
+
+.about-text h3 {
+  font-family: "Baskervville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.about-text p {
+  font-size: 18px;
+    color: #6B5A5A;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-text span{
+  font-size: 20px;
+    margin-bottom: 2px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.about-text span p {
+  font-size: 14px;
+    font-weight: 300;
+    color: #6B5A5A;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+}
+
+.sign{
+  width: 3%;
+  height: 5%;
 }
