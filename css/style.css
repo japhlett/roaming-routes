@@ -229,12 +229,14 @@
   padding-bottom: 120px;
   line-height: 1.5;
   color: #000;
-
+  max-width: 1140px;
+  max-height: 654.25px;
+  padding-left: 60px;
 }
 
 #about img {
-  width: 516px;
-  height: 731px;
+  width: 451px;
+  height: 570px;
   margin-bottom: 15px;
     border-radius: 140px 0 0 0;
   
@@ -256,7 +258,7 @@
   text-align: center;
 }
 
-.about-btn span {
+.about-btn span  {
   color: #fff;
   font-size: 76px;
   font-weight: 900;
@@ -264,8 +266,19 @@
   margin-bottom: 5px;
 }
 
+.about-btn p {
+  font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 19px;
+    line-height: 1.4;
+    font-family: "Roboto", sans-serif;
+}
+
 .about-text {
   margin-left: 8.3333333333%;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-text h2 {
@@ -274,7 +287,7 @@
   line-height: 1.4;
   margin-bottom: 30px;
   font-style: normal;
-  font-family:  "Baskervville", sans-serif;
+  font-family:  "Baskervville", serif;
 }
 
 .about-text h3 {
@@ -311,6 +324,6 @@
 }
 
 .sign{
-  width: 3%;
-  height: 5%;
+ max-width: 121px;
+ max-height: 61px;
 }
